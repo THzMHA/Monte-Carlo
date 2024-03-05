@@ -1,8 +1,8 @@
 % This code uses the function mie_single to generate Fig. 3 of the paper 
 
-ff = 0.01:0.01:2; % frequency [THz]
+ff = 0.01:0.01:2;% frequency [THz]
 qsca=zeros(1,200);asy=qsca;qabs=qsca;
-dia = [1000,300,150,50]; % particle diameter [um]
+dia = [1000,300,150,50];% particle diameter [um]
 colors='kbrg';
 nr=linspace(1.6129,1.51,201);ni=linspace(1.5371,45.56,201);% linear fit of adiopose's property
 
