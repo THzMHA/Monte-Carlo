@@ -4,8 +4,8 @@ ff = 0.01:0.01:2;% frequency [THz]
 qsca=zeros(1,200);asy=qsca;qabs=qsca;
 dia = [1000,300,150,50];% particle diameter [um]
 nr=linspace(1.6129,1.51,201);ni=linspace(1.5371,45.56,201);% linear fit of adiopose's property
-load('npar.mat');
-load('nmed.mat');
+load('n_wat.mat');
+load('n_epi.mat');
 
 f=figure;
 set(f,'Position',[100 100 550 370]);
