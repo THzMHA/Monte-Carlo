@@ -7,6 +7,8 @@ mie_polar.m uses a executable file iquv.exe, which is modified and compiled from
 Original version of iquv.exe uses four polarization inputs (H, V, P, R) to obtain the Mueller matrix. In this example, we only simulate P and R since the results of all linear polarizations are virtually the same. Thus, a typical output from iquv.exe looks like:
 
 >launch P
+>
      R= 0.02711577	 -0.00005200	 -0.02343410	 0.00000701
-launch R
+>launch R
+>
      R= 0.02691129	 0.00000948	 0.00001508	 -0.02034429`
