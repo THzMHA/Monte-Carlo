@@ -13,3 +13,10 @@ Original version of iquv.exe uses four polarization inputs (H, V, P, R) to obtai
 >launch R
 
 >R= 0.02691129	 0.00000948	 0.00001508	 -0.02034429`
+
+```
+launch P
+R= 0.02711577	 -0.00005200	 -0.02343410	 0.00000701
+launch R
+R= 0.02691129	 0.00000948	 0.00001508	 -0.02034429
+```
