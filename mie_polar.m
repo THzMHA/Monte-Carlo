@@ -19,7 +19,7 @@ for jj=samp
 lambda = 3e14./(ff(jj)*1e12);
 
 % The imaginary part of refractive index needs to be positive
-npar=1;%conj(n_wat(jj));
+npar=conj(n_wat(jj));
 nmed=conj(n_epi(jj));
 % water in epidermis; the input needs manual changing
 
