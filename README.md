@@ -1,3 +1,6 @@
+These codes are used in the paper [Kuangyi Xu and M. Hassan Arbab, "Terahertz polarimetric imaging of biological tissue: Monte Carlo modeling of signal contrast mechanisms due to Mie scattering," Biomed. Opt. Express 15, 2328-2342 (2024)](https://doi.org/10.1364/BOE.515623)
+
+
 Two examples of simulating the propagation of polarized THz wave in turbid medium
 1. Run plot_mie.m to display single-particle propeties based on Mie theory in absorbing medium.
 2. Run mie_polar.m to obtain the diffuse reflectance and degree of polarization of exiting THz wave.
